@@ -1,0 +1,8 @@
+After building a server and write a client:
+Initialize `index.html` in Client folder
+
+
+create app.js 
+generate response by fetch() 
+resolve the response body and get the greeting
+call the function to refresh the page by updating the context string via id.

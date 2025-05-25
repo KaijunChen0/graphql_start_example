@@ -1,0 +1,22 @@
+library: apollo server
+--- populate graphql implement for javascript
+--- allow to make API publich over http
+
+client --- graphql --- server
+
+`npm install @apollo/server graphql`
+to install the apollo server in server folder
+so you can check in package.json, two dependecies to be added
+`
+ "dependencies": {
+        "@apollo/server": "^4.12.1",
+        "graphql": "^16.11.0"
+    }
+`
+
+run `node server.js` in terminal
+open the link
+see graphql query page, which allows to run query.
+`control+space` to see options:fragment, mutation, query, subscription, {
+
+query---operation type
